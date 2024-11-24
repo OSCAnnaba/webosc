@@ -5,7 +5,7 @@ import "./globals.css";
 import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
-  title: `univ${process.env.NODE_ENV === "development" ? " - development" : ""}`,
+  title: `WebOSC - Platform${process.env.NODE_ENV === "development" ? " - development" : ""}`,
   icons: {
     icon: "/logo-white.png",
   },
