@@ -8,7 +8,7 @@ import { checkEmailValidation } from "@/lib/authorization";
 import EmailBanner from "@/components/EmailBanner";
 
 export const metadata: Metadata = {
-  title: `WebOSC - Platform${process.env.NODE_ENV === "development" ? " - development" : ""}`,
+  title: `WebOSC - Platform${process.env.NODE_ENV === "development" ? " - Development" : ""}`,
   icons: {
     icon: "/logo-white.png",
   },
