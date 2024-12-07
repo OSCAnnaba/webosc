@@ -9,12 +9,12 @@ export default function EmailBanner() {
     <>
       {path[1] != "email" && (
         <div className="w-full bg-red-600 p-2 flex items-center justify-center gap-6">
-          <p>email not verified</p>
+          <p>Account not verified!</p>
           <Link
-            className="border border-white rounded-md p-2"
+            className="border border-white rounded-md py-1 px-2"
             href="/email/verify"
           >
-            verify
+            Verify
           </Link>
         </div>
       )}
