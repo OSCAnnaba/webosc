@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="mailto:osca@univ-annaba.dz"><img src="https://github.com/user-attachments/assets/0801f74b-059f-4d8c-b87c-0403c244bf9a" width="100"/></a>
+  <a href="mailto:osca@univ-annaba.dz"><img src="https://github.com/user-attachments/assets/086d9a88-1a13-4c61-b57a-c11c60aa53fd" width="100"/></a>
 </div>
 
 ## Introduction
