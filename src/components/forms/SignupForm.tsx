@@ -17,7 +17,7 @@ const initFormState: FormState = {
 export default function SignupForm() {
   const [signupFormState, signupFormAction] = useFormState(
     signup,
-    initFormState,
+    initFormState
   );
 
   const [showPassword, setShowPassword] = useState(false);
@@ -47,7 +47,7 @@ export default function SignupForm() {
   return (
     <form
       action={(form: FormData) => {
-        const toastID = toast.loading("signing you up ...");
+        const toastID = toast.loading("Signing you up..");
         setToastID(toastID);
         signupFormAction(form);
       }}
